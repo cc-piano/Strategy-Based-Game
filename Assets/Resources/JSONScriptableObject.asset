@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3c236d1719eee9a40897fd25a0187fef, type: 3}
+  m_Name: JSONScriptableObject
+  m_EditorClassIdentifier: 
+  Items:
+  - id: 1
+    type: Decoration
+    name: Tree
+    limit: -1
+    area:
+      w: 2
+      h: 2
+  - id: 2
+    type: Building
+    name: Building Small
+    limit: 2
+    area:
+      w: 4
+      h: 4
+  - id: 3
+    type: Decoration
+    name: Stone
+    limit: -1
+    area:
+      w: 1
+      h: 1
+  - id: 4
+    type: Decoration
+    name: Tree2
+    limit: -1
+    area:
+      w: 2
+      h: 3
+  - id: 5
+    type: Decoration
+    name: Stone
+    limit: -1
+    area:
+      w: 2
+      h: 1
+  - id: 6
+    type: Decoration
+    name: Building2
+    limit: 4
+    area:
+      w: 4
+      h: 4
+  - id: 7
+    type: Decoration
+    name: Building3
+    limit: 2
+    area:
+      w: 5
+      h: 5
